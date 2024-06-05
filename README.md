@@ -10,7 +10,8 @@ The output is formatted as a table with the field name taking the first 14 colum
 the times as a space-separated list following it.
 
 ### Example
-#### Sample Input: `*/15 0 1,15 * 1-5 /usr/bin/find`
+#### Sample Input: 
+`*/15 0 1,15 * 1-5 /usr/bin/find`
 #### Output:
 ```
 minute        0 15 30 45
