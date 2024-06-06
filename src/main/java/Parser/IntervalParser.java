@@ -5,6 +5,12 @@ import java.util.Set;
 import Enum.CronFieldType;
 
 public class IntervalParser implements ParserInterface{
+
+    /**
+     * {@inheritDoc}
+     *
+     * Parses fields with interval values
+     */
     @Override
     public Set<Integer> parseField(String text, CronFieldType type) throws Exception {
         int interval = 1;

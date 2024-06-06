@@ -6,6 +6,12 @@ import java.util.TreeSet;
 import Enum.CronFieldType;
 
 public class FixedValueParser implements ParserInterface{
+
+    /**
+     * {@inheritDoc}
+     *
+     * Parses fields with fixed values
+     */
     @Override
     public Set<Integer> parseField(String text, CronFieldType type) throws Exception {
         Set<Integer>values =new TreeSet<>();
