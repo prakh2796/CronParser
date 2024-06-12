@@ -28,7 +28,7 @@ public class CronFieldTest {
             new CronField(inputText, type);
             fail(inputText + "should not be a valid" + type);
         } catch (Exception exception) {
-            assertTrue(exception.getMessage().contains("Interval is 0"));
+            assertTrue(exception.getMessage().contains(message));
         }
     }
 }
